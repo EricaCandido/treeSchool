@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* Selettore tag */
+
+body {
+  background-color: #c7a9ff;
+  border: 2px solid royalblue;
+  font-family: "Roboto Condensed", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Selettore classe */
+.navbar {
+  color: #2a2f4f;
+}
+
+/* Selettore id */
+
+#general_title {
+  color: #fde2f3;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+/* ------------------ */
+
+.navbar ul li {
+  list-style-type: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.navbar ul li:hover {
+  color: #ffffff;
+}
+
+/* #test {
+  list-style-type: none;
+} */
+
+#image_3 {
+  border: 2px dotted yellow;
+}
+.main_images {
+  border: 10px solid #2a2f4f;
+  /* border-radius: 12px; */
+  /* border-top-left-radius: 24px; */
+  width: 50%;
+  max-width: 300px;
+  max-height: 600px;
+  /* height: 200px; */
+}
